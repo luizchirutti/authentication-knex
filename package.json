@@ -1,0 +1,20 @@
+{
+  "name": "authentication-knex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.95.11",
+    "oracledb": "^5.2.0"
+  }
+}
